@@ -1,4 +1,3 @@
-
 176. Second Highest Salary
 
 Intuition
@@ -19,13 +18,17 @@ Complexity
 
 Time complexity:
 
+
 $$O(N \log N) \text{ or } O(1)$$
+
 
 If there is no index on the salary column, the database must sort the table, resulting in $O(N \log N)$ time. However, if the salary column is indexed (as is standard practice for heavily queried numeric columns), the engine completely skips the sorting phase and does an $O(1)$ index scan to instantly grab the second value in the B-Tree.
 
 Space complexity:
 
+
 $$O(1)$$
+
 
 The database engine processes the sort and limits in place or using a bounded top-K heap, requiring constant extra space.
 
