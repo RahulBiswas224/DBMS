@@ -17,10 +17,10 @@ The solutions are neatly organized by difficulty level. Inside each folder, you 
 ```text
 📦 LeetCode-DBMS
  ┣ 📂 Easy
- ┃ ┣ 📜 175_Combine_Two_Tables.sql
- ┃ ┗ 📜 181_Employees_Earning_More_Than_Managers.sql
+ ┃ ┣ 📜 
+ ┃ ┗ 📜 
  ┣ 📂 Medium
- ┃ ┣ 📜 176_Second_Highest_Salary.sql
- ┃ ┗ 📜 184_Department_Highest_Salary.sql
+ ┃ ┣ 📜 
+ ┃ ┗ 📜 
  ┗ 📂 Hard
-   ┗ 📜 185_Department_Top_Three_Salaries.sql
+   ┗ 📜
